@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+body {
+	margin: 0;
+	padding: 0;
+}
 
 .h2css {
 	padding-top: 0%;
@@ -59,5 +63,16 @@
 /* Formation */
 
 .formation {
+	padding: 10%;
+}
+
+/* Portfolio */
+
+.h2portfolio {
+	padding-top: 0%;
+	padding-bottom: 40px;
+}
+
+.portfolio {
 	padding: 10%;
 }
