@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ hr {
+ 	margin-top: 40px;
+ 	max-width: 50%;
+ 	border: 7px solid black;
+ 	border-radius: 5px; 
+ 	position: relative;
+ }
+
+ /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  padding-left: 0;
+  background-color: #ddd; /* Grey background */
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 10px;
+}
+
+.skillbar {
+	padding: 20%;
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 50%; background-color: #f44336;} /* Red */
+.ruby {width: 60%; background-color: #808080;} /* Dark Grey */
