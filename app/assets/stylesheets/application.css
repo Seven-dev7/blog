@@ -51,7 +51,9 @@ body {
 }
 
 .skillbar {
-	padding: 10%;
+	padding-top: 7%;
+	padding-left: 7%;
+	padding-right: 7%
 }
 
 .html {width: 90%; background-color: #4CAF50;} /* Green */
@@ -63,7 +65,9 @@ body {
 /* Formation */
 
 .formation {
-	padding: 10%;
+	padding-top: 7%;
+	padding-left: 7%;
+	padding-right: 7%
 }
 
 /* Portfolio */
@@ -74,5 +78,7 @@ body {
 }
 
 .portfolio {
-	padding: 10%;
+	padding-top: 7%;
+	padding-left: 7%;
+	padding-right: 7%
 }
