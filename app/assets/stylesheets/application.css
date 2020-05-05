@@ -19,8 +19,8 @@ body {
 }
 
 .h2css {
-	padding-top: 0%;
-	padding-bottom: 40px;
+	padding-top: 2%;
+	padding-bottom: 0px;
 }
  hr {
  	margin-top: 40px;
@@ -29,6 +29,11 @@ body {
  	border-radius: 5px; 
  	position: relative;
  }
+
+/* Banner */
+
+.banner {
+}
 
  /* Make sure that padding behaves as expected */
 
@@ -70,7 +75,7 @@ body {
 /* Formation */
 
 .formation {
-	padding-top: 7%;
+	padding-top: 0%;
 	padding-left: 7%;
 	padding-right: 7%
 }
