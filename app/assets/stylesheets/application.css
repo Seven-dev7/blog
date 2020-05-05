@@ -31,14 +31,14 @@ body {
  }
 
  /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+
 
 /* Container for skill bars */
 .container_skillbar {
   width: 100%; /* Full width */
   padding-left: 0;
   background-color: #ddd; /* Grey background */
-  border: 5px solid white;
+  border: 5px transparent;
   border-radius: 10px;
 }
 
@@ -53,13 +53,18 @@ body {
 .skillbar {
 	padding-top: 7%;
 	padding-left: 7%;
-	padding-right: 7%
+	padding-right: 7%;
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
+.html {width: 70%; background-color: #4CAF50;} /* Green */
+.css {width: 70%; background-color: #2196F3;} /* Blue */
 .js {width: 50%; background-color: #f44336;} /* Red */
 .ruby {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.bootstrap {width: 70%; background-color: blue;} /* Green #4CAF50 */
+.rails {width: 70%; background-color: red;} /* Blue #2196F3 */
+.pg {width: 50%; background-color: yellow;} /* Red #f44336 */
+.react {width: 20%; background-color: purple;} /* Dark Grey #808080*/
 
 
 /* Formation */
