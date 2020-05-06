@@ -16,7 +16,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(#00d4ff 30%, #090979);
+	/*background: linear-gradient(#00d4ff 30%, #090979);*/
+	background: #d5dcde;
 }
 
 .h2css {
@@ -46,8 +47,10 @@ hr {
 
 .about {
 	padding-left: 0%;
-	margin-left: 25%;
+	margin-left: 8%;
+	margin-right: 8%;
 	border: solid;
+	background:#1692b5;
 }
 
 /* Banner */
@@ -79,8 +82,9 @@ hr {
 	padding-top: 7%;
 	padding-left: 7%;
 	padding-right: 7%;
-	margin-left: 25%;
-
+	margin-left: 8%;
+	margin-right: 8%;
+	background:#1692b5;
 }
 
 .html {width: 70%; background-color: #4CAF50;} /* Green */
@@ -100,7 +104,9 @@ hr {
 	padding-top: 4%;
 	padding-left: 7%;
 	padding-right: 7%;
-	margin-left: 25%;
+	margin-left: 8%;
+	margin-right: 8%;
+	background:#1692b5;
 }
 
 /* Timeline */
@@ -147,5 +153,7 @@ ul.timeline > li:before {
 	padding-top: 7%;
 	padding-left: 7%;
 	padding-right: 7%;
-	margin-left: 25%;
+	margin-left: 8%;
+	margin-right: 8%;
+	background:#1692b5;
 }
