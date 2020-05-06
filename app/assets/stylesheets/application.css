@@ -30,6 +30,15 @@ body {
  	position: relative;
  }
 
+/* Navbar */
+
+.bg-dark {
+	background-color: transparent !important;
+}
+.bg-dark.scrolled {
+	background: linear-gradient(#000 30%, #0000) !important;
+}
+
 /* Banner */
 
 .banner {
