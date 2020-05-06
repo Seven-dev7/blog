@@ -59,6 +59,8 @@ hr {
 	padding-bottom: 1%;
 	margin-left: 8%;
 	margin-right: 8%;
+	margin-bottom: 10%;
+	margin-top: 5%;
 	/* border: solid; */
 	background:grey;
 	/* background:#1692b5; blue */
@@ -103,6 +105,8 @@ hr {
 	padding-right: 7%;
 	margin-left: 8%;
 	margin-right: 8%;
+	margin-bottom: 10%;
+	margin-top: 5%;
 	background:white;
 }
 
@@ -125,6 +129,7 @@ hr {
 	padding-right: 7%;
 	margin-left: 8%;
 	margin-right: 8%;
+	margin-bottom: 7%;
 	background:white;
 	/* background:#1692b5; */
 }
@@ -166,7 +171,6 @@ ul.timeline > li:before {
 
 .h2portfolio {
 	padding-top: 3%;
-	padding-bottom: 40px;
 }
 
 .portfolio {
@@ -175,6 +179,7 @@ ul.timeline > li:before {
 	padding-right: 7%;
 	margin-left: 8%;
 	margin-right: 8%;
+	margin-top: 10%;
 	background:white;
 	/* background:#1692b5; blue */
 }
