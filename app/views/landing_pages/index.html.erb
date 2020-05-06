@@ -1,4 +1,143 @@
 
+<!-- Banner -->
+
+<div class="banner">
+<%= image_tag("banner-2.jpg", class: "img-fluid", id: "navbar-logo") %>
+</div>	
+<!-- Bouton new_landing_page_path -->
+
+      <%= link_to 'Cliquez ici', new_landing_page_path, class:"btn btn-secondary"%>
+
+
+
+<!-- ABOUT -->
+
+	<h2 class="h2about text-center">
+		A propos
+	</h2>
+<section class="h-100 w-70"id="about">
+	<div class="about rounded-circle">
+	<%= image_tag("tk.jpg", class:"img-fluid rounded-circle float ")%>
+	<p class="aboutp lead">Dans ce monde bizarre dans lequel nous vivons, j'ignore si je suis en enfer ou au paradis. Je voudrais préserver indéfiniment ma sensibilité d'enfant. Aussi mature, aussi riche que je devienne, je veux rester intègre, fidèle à moi-même, à ma vérité.</p>
+	<footer class="blockquote-footer">Takeshi Kitano in<cite title="Source Title">"Kitano par Kitano"</cite></footer>
+	</div>
+
+</section>
+
+
+<!-- SKILLBAR -->
+
+	<h2 class=" h2skillbar text-center"> Compétences </h2>
+
+<section class="jumbotron jumbotron-fluid skillbar w-70 h-100" id="competences">
+	
+
+<div class="card-group">
+	<div class="col-sm-6">
+		<div class="card h-100 w-100 border-0" style="width: 30rem;">
+			<p>HTML</p>
+				<div class="container_skillbar">
+	  				<div class="skills html">70%</div>
+				</div>
+			<p>CSS</p>
+				<div class="container_skillbar">
+	  				<div class="skills css">70%</div>
+				</div>
+			<p>RUBY</p>
+				<div class="container_skillbar">
+			  		<div class="skills ruby">60%</div>
+				</div>
+			<p>JAVASCRIPT</p>
+				<div class="container_skillbar">
+			  		<div class="skills js">50%</div>
+				</div>
+		</div>
+	</div>
+		<div class="col-sm-6">
+			<div class="card h-100 w-100 border-0" style="width: 30rem;">
+				<p>Bootstrap</p>
+					<div class="container_skillbar">
+	  					<div class="skills bootstrap">70%</div>
+					</div>
+				<p>Rails</p>
+					<div class="container_skillbar">
+	  					<div class="skills rails">70%</div>
+					</div>
+				<p>Postgresql</p>
+					<div class="container_skillbar">
+			  			<div class="skills pg">60%</div>
+					</div>
+				<p>React</p>
+					<div class="container_skillbar">
+			  			<div class="skills react">20%</div>
+					</div>
+			</div>
+		</div>
+	</section>
+
+
+
+<!-- FORMATION -->
+
+  <h2 class="h2css text-center"> Formation </h2>
+<div class="card-deck">
+  <div class="jumbotron jumbotron-fluid formation h-100 w-70" id="formation">
+  	<ul class="timeline">
+		<li>
+    		<div class="card " style="max-width: 940px;">
+  				<div class="row no-gutters">
+    				<div class="col-md-4">
+      					<%= image_tag("thp.png", class: "card-img", alt: "...")%>
+    				</div>
+    			<div class="col-md-8">
+      				<div class="card-body">
+        				<h5 class="card-title">The Hacking Project</h5>
+        					<p class="card-text">BootCamp de 3 mois dans l'apprentissage de Ruby on Rails.</p>
+        					<p class="card-text"><small class="text-muted">Mars 2019 - Juin 2019</small></p>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		</li>
+
+  		<li>
+  			<div class="card mb-3" style="max-width: 940px;">
+      			<div class="row no-gutters">
+			        <div class="col-md-4">
+			            <%= image_tag("oc.jpg", class: "card-img", alt: "...")%>
+			        </div>
+			        <div class="col-md-8">
+			            <div class="card-body">
+			              <h5 class="card-title">Open Classroom</h5>
+			                <p class="card-text">Site de formation en ligne reconnu en france. J'ai suivie les cours sur HTML, CSS, Ruby et Ruby on Rails</p>
+			                <p class="card-text"><small class="text-muted">Janvier 2019 - Decembre 2019</small></p>
+			            </div>
+			        </div>
+			      </div>
+  			</div>
+		</li>
+
+		<li>
+		  <div class="card mb-3" style="max-width: 940px;">
+		    <div class="row no-gutters">
+		      <div class="col-md-4">
+	            <%= image_tag("udemy.png", class: "card-img", alt: "...")%>
+	          </div>
+	          <div class="col-md-8">
+	            <div class="card-body">
+	              <h5 class="card-title">Udemy</h5>
+	                <p class="card-text">Site de formation en ligne. Je suis actuellement une formation sur python et une sur JavaScript</p>
+	                <p class="card-text"><small class="text-muted">Avril 2020 - Mai 2020</small></p>
+		        </div>
+		      </div>
+		      </div>
+		  </div>
+		</li>
+	</ul>
+	</div>
+</div>
+
+<!-- PORTFOLIO -->
 
 
 	<h2 class="h2portfolio text-center"> Portfolio </h2>
