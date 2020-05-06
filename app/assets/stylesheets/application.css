@@ -18,6 +18,7 @@ body {
 	padding: 0;
 	/*background: linear-gradient(#00d4ff 30%, #090979);*/
 	background: #d5dcde;
+	/* background: white; */
 }
 
 .h2css {
@@ -40,17 +41,24 @@ hr {
 	background-color: transparent !important;
 }
 .bg-dark.scrolled {
+	/* background: black !important;*/
 	background: linear-gradient(#000 30%, #0000) !important;
 }
 
 /* About */
 
+.h2about {
+	padding-top: 3%;
+	padding-bottom: 40px;
+}
+
 .about {
-	padding-left: 0%;
+	padding: 1% 10% 0% 10%;
 	margin-left: 8%;
 	margin-right: 8%;
-	border: solid;
-	background:#1692b5;
+	/* border: solid; */
+	background:grey;
+	/* background:#1692b5; blue */
 }
 
 /* Banner */
@@ -58,8 +66,12 @@ hr {
 .banner {
 }
 
- /* Make sure that padding behaves as expected */
+/* SkillBar */
 
+.h2skillbar {
+	padding-top: 3%;
+	padding-bottom: 40px;
+}
 
 /* Container for skill bars */
 .container_skillbar {
@@ -84,7 +96,7 @@ hr {
 	padding-right: 7%;
 	margin-left: 8%;
 	margin-right: 8%;
-	background:#1692b5;
+	background:white;
 }
 
 .html {width: 70%; background-color: #4CAF50;} /* Green */
@@ -106,7 +118,8 @@ hr {
 	padding-right: 7%;
 	margin-left: 8%;
 	margin-right: 8%;
-	background:#1692b5;
+	background:white;
+	/* background:#1692b5; */
 }
 
 /* Timeline */
@@ -155,5 +168,6 @@ ul.timeline > li:before {
 	padding-right: 7%;
 	margin-left: 8%;
 	margin-right: 8%;
-	background:#1692b5;
+	background:white;
+	/* background:#1692b5; blue */
 }
