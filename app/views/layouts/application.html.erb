@@ -32,7 +32,7 @@
    <!-- <hr> -->
 
     <%= yield %>
-        <%= render "landing_pages/footer"%>
+    <%= render "landing_pages/footer"%>
 
     <!-- Optional JavaScript -->    
 
@@ -52,6 +52,7 @@
           function(){
             $(this).animate({
               marginTop: "-=1%",
+              background: "red",
             },200);
           },
           // trigger when mouse out
