@@ -39,7 +39,7 @@
     <!-- Change color on scroll -->
     <script>
       $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 380);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 180);
       }); 
     </script>
 
@@ -52,7 +52,7 @@
           function(){
             $(this).animate({
               marginTop: "-=1%",
-              background: "red",
+              backgroundColor: "red",
             },200);
           },
           // trigger when mouse out

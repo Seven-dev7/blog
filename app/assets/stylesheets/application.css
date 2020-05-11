@@ -21,24 +21,31 @@ body {
 	background: white;
 }
 
+a {
+	color: white;
+}
+a:hover {
+	color: silver;
+}
+
 .h2css {
 	padding-top: 2%;
 	padding-bottom: 40px;
 }
 
-hr {
+/*hr {
  	margin-top: 40px;
  	max-width: 50%;
  	border: 7px solid black;
  	border-radius: 5px; 
  	position: relative;
 
- }
+ }*/
 
 /* Navbar */
 
 .bg-dark {
-	background-color: transparent !important;
+	background-color: black !important;
 }
 .bg-dark.scrolled {
 	/* background: black !important;*/
@@ -46,6 +53,49 @@ hr {
 }
 
 /* About */
+
+.break {
+  height: 1px;
+  background-color: rgba(88, 153, 226, 0.3);
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.socials a {
+  color: rgb(144, 144, 144);
+}
+.social-link {
+  font-size: 2em;
+  margin: 5px 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.bio {
+  text-align: center;
+  padding: 0px 150px;
+  margin-bottom: 10%;
+}
+.avatar {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 40%;
+  margin-right: 20%;
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px rgba(20, 20, 20, 0.3);
+}
+.title {
+	margin-top: 7%;
+	margin-left: 43%;
+}
+.subtitle {
+	color: grey;
+	font-size: 1.7rem;
+	margin-left: 36%;
+	margin-bottom: 5%;
+}
 
 .h2about {
 	padding-top: 3%;
@@ -267,3 +317,4 @@ ul.timeline > li:before {
 		transform: translateX(50px) scale(1);
 	}
 }
+
