@@ -47,18 +47,17 @@
     <script>
       $(document).ready(function(){
 
-        $('.card').hover(
+        $('.skill_effect').hover(
           //trigger when mouse over
           function(){
             $(this).animate({
               marginTop: "-=1%",
-              backgroundColor: "red",
             },200);
           },
           // trigger when mouse out
           function(){
             $(this).animate({
-              marginTop: "O%",
+              marginTop: "+=1%",
             },200);
           }
           );

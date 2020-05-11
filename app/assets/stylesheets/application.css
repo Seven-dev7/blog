@@ -118,7 +118,7 @@ nav a {
   padding-left: 0;
   background-color: #ddd; /* Grey background */
   border: 5px transparent;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .skills {
@@ -138,6 +138,9 @@ nav a {
 	margin-bottom: 10%;
 	margin-top: 5%;
 	background:white;
+}
+.skill_effect {
+
 }
 
 .html {width: 70%; background-color: #4CAF50;} /* Green */
@@ -221,6 +224,8 @@ ul.timeline > li:before {
 	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	border: none;
+	background-color: #ddd; /* Grey background */
 }
 
 /* New page test */
