@@ -200,13 +200,14 @@ ul.timeline > li:before {
 /* Portfolio */
 
 .h2portfolio {
-	padding-top: 3%;
+	padding-top: 5%;
 }
 
 .portfolio {
-	padding-top: 7%;
+	padding-top: 10%;
 	padding-left: 7%;
 	padding-right: 7%;
+	margin-bottom: 10%;
 	margin-left: 8%;
 	margin-right: 8%;
 	margin-top: 10%;
