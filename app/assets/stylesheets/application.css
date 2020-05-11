@@ -59,6 +59,8 @@ nav a {
 
 .break {
   height: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(88, 153, 226, 0.3);
 }
 .socials {
@@ -151,7 +153,7 @@ nav a {
 .bootstrap {width: 70%; background-color: blue;} /* Green #4CAF50 */
 .rails {width: 70%; background-color: red;} /* Blue #2196F3 */
 .pg {width: 50%; background-color: yellow;} /* Red #f44336 */
-.react {width: 20%; background-color: purple;} /* Dark Grey #808080*/
+.github {width: 50%; background-color: purple;} /* Dark Grey #808080*/
 
 
 /* Formation */
