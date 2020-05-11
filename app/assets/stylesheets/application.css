@@ -232,6 +232,9 @@ ul.timeline > li:before {
 	border: none;
 	background-color: #a8d5f7; /* light-blue background */
 }
+.img-fluid{
+	filter:Alpha(opacity=60);-moz-opacity:0.60;opacity: 0.60;
+}
 
 /* New page test */
 
