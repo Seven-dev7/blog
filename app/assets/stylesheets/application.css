@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+ /* bleu twitter 25% desaturé #18a1d6 */
 body {
 	margin: 0;
 	padding: 0;
@@ -44,15 +46,16 @@ a:hover {
 
 /* Navbar */
 nav a {
-	color: black;
+	color: white;
 }
 
 .bg-dark {
-	background-color: #bdbdbd !important;
+	background-color: #00acee !important;
+	/*background-color: #bdbdbd !important;*/
 }
 .bg-dark.scrolled {
 	/* background: black !important;*/
-	background: linear-gradient(#000 30%, #0000) !important;
+	background: linear-gradient(#00acee 30%, #0000) !important;
 }
 
 /* About */
@@ -227,7 +230,7 @@ ul.timeline > li:before {
 	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 	border: none;
-	background-color: #ddd; /* Grey background */
+	background-color: #a8d5f7; /* light-blue background */
 }
 
 /* New page test */
@@ -321,7 +324,7 @@ ul.timeline > li:before {
 	margin-bottom: 10%;
 	margin-top: 5%;
 	/* border: solid; */
-	background:grey;
+	background: #00acee;
 	/* background:#1692b5; blue */
 }
 
