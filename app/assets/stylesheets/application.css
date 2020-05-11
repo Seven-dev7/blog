@@ -45,7 +45,7 @@ a:hover {
 /* Navbar */
 
 .bg-dark {
-	background-color: #0000; !important;
+	background-color: #0000 !important;
 }
 .bg-dark.scrolled {
 	/* background: black !important;*/
