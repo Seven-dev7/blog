@@ -25,7 +25,7 @@ a {
 	color: white;
 }
 a:hover {
-	color: silver;
+	color: grey;
 }
 
 .h2css {
@@ -43,9 +43,12 @@ a:hover {
  }*/
 
 /* Navbar */
+nav a {
+	color: black;
+}
 
 .bg-dark {
-	background-color: #0000 !important;
+	background-color: #bdbdbd !important;
 }
 .bg-dark.scrolled {
 	/* background: black !important;*/
