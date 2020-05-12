@@ -49,6 +49,10 @@ nav a {
 	color: white;
 }
 
+.nav_style {
+	border: transparent;
+	border-radius: 5%;
+}
 .bg-dark {
 	background-color: #00acee !important;
 	/*background-color: #bdbdbd !important;*/
